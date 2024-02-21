@@ -1,0 +1,77 @@
+.header {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0/10%);
+}
+
+.header .inner-homepage {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+
+.header .inner-homepage .inner-icon {
+    margin-left: 30px;
+}
+
+.header .inner-homepage .inner-title {
+    font-weight: 400;
+}
+
+.inner-homepage .inner-logo a {
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+}
+
+.inner-homepage img {
+    width: auto;
+    height: 50px;
+}
+
+.inner-homepage .inner-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .inner-search {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.header .inner-search .search {
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    background: #F1F3F4;
+    padding: 20px;
+}
+
+.header .inner-search .search:focus {
+    outline: none;
+    /* Loại bỏ đường viền xung quanh khi focus */
+    border: 1px solid transparent;
+    /* Đường viền trong suốt khi focus */
+}
+
+.inner-homepage .inner-features {
+    width: 15%;
+    display: flex;
+}
+
+.header .inner-features {
+    display: flex;
+    font-size: 20px;
+    font-weight: 550;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header .inner-features i {
+    margin-right: 30px;
+}

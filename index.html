@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/ddfaef415c.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="section-one">
+        <div class="container">
+            <header class="header">
+                <div class="inner-homepage">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="inner-logo">
+                        <a href="#">
+                            <img src="assets/images/keep_2020q4_48dp (1).png" alt="" class="inner-icon">
+                            <h2 class="inner-title">Keep</h2>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="inner-search">
+                    <input type="text" class="search" placeholder="Tìm kiếm">
+                </div>
+                <div class="inner-features">
+                    <i class="fa-sharp fa-solid fa-rotate-right"></i>
+                    <i class="fa-solid fa-bars-progress"></i>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <input class="modal-title" placeholder="Title" type="text">
+            <input class="modal-text" placeholder="Take a note..." type="text">
+            <span class="modal-close-button">Close</span>
+        </div>
+
+    </div>
+    <main>
+        <div id="form-container">
+            <form id="form" autocomplete="off">
+                <input id="note-title" placeholder="Title" type="text">
+                <input id="note-text" placeholder="Take a note..." type="text">
+                <div id="form-buttons">
+                    <button type="submit" id="submit-button">Submit</button>
+                    <button type="button" id="form-close-button">Close</button>
+                </div>
+            </form>
+        </div>
+        <div id="notes"></div>
+        <div id="placeholder">
+            <span style="color: grey; opacity: .2;">
+            <i class="far fa-lightbulb fa-6x"></i> 
+            </span>
+            <p id="placeholder-text">Notes you add appear here</p>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
